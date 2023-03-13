@@ -1,151 +1,228 @@
+/* SAIBA MAIS! */
+
+/*Definindo variáveis de cor e fonte de texto*/
+
+:root {
+    --preto: #2E3840;
+    --branco: #FFF;
+    --branco-rosado: #F7EDEB;
+    --rosa-principal: rgba(166, 83, 105, 0.3);
+
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+/*deixando o branco-rosado em todo o site e a fonte também*/
+
+body {
+    background: var(--branco-rosado);
+    font-family: var(--montserrat);
+}
+
+.titulo-servicos {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    width: 940px;
+    height: 72px;
+    margin: 16px auto;
+
+    background: linear-gradient(180deg, rgba(166, 83, 105, 0.3) 0%, rgba(247, 237, 235, 0) 100%);
+}
+
+.titulo-principal-servicos {
+    font-size: 2em;
+    margin: .5em;
+}
+
+.container-servicos {
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    height: 480px;
+    margin: 16px auto;
+}
+
+.card-servicos {
+    width: 160px;
+}
+
+/*Onde uma imagem irá ficar, deixando esse background para visualizarmos melhor*/
+.img-servicos {
+    height: 160px;
+    margin-bottom: 16px;
+    background-color: var(--rosa-principal);
+}
+
+.texto-servicos {
+    display: flex;
+    height: 200px;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+}
+
+.saiba-mais-servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 60px;
+    margin: 16px 0;
+
+    color: var(--preto);
+    text-decoration: none;
+    background: var(--rosa-principal);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 /*Nossa Equipe (Daniela)*/
 #position {
     position: absolute;
-width: 1366px;
-height: 678px;
-left: 0px;
-top: 2150px;
+    width: 1366px;
+    height: 678px;
+    left: 0px;
 
-background: #F7EDEB;
+    background: #F7EDEB;
 }
 
-#box-equipe{
+#box-equipe {
     position: absolute;
-width: 1170px;
-height: 91px;
-left: 98px;
-top: 70px;
+    width: 1170px;
+    height: 91px;
+    left: 98px;
+    top: 70px;
 
-background: linear-gradient(180deg, rgba(166, 83, 105, 0.3) 0%, rgba(247, 237, 235, 0) 100%);
+    background: linear-gradient(180deg, rgba(166, 83, 105, 0.3) 0%, rgba(247, 237, 235, 0) 100%);
 }
 
 .titulo {
     position: absolute;
-width: 168px;
-height: 31px;
-left: 15px;
-top: 10px;
+    width: 168px;
+    height: 31px;
+    left: 15px;
+    top: 10px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 31px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
 
-color: #000000;
+    color: #000000;
 }
 
 #box-1 {
     position: absolute;
-width: 540px;
-height: 108px;
-left: 126px;
-top: 191px;
+    width: 540px;
+    height: 108px;
+    left: 126px;
+    top: 191px;
 
-background: linear-gradient(90deg, rgba(166, 83, 105, 0.3) -1.3%, rgba(247, 237, 235, 0) 99.17%);
+    background: linear-gradient(90deg, rgba(166, 83, 105, 0.3) -1.3%, rgba(247, 237, 235, 0) 99.17%);
 }
 
 .nome {
     position: absolute;
-width: 59px;
-height: 25px;
-left: 30px;
-top: -10px;
+    width: 59px;
+    height: 25px;
+    left: 30px;
+    top: -10px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 21px;
-line-height: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
 
-color: #000000;
+    color: #000000;
 
 }
 
 .formacao {
     position: absolute;
-width: 75px;
-height: 19px;
-left: 30px;
-top: 20px;
+    width: 75px;
+    height: 19px;
+    left: 30px;
+    top: 20px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 
-color: #000000;
+    color: #000000;
 }
 
 .especia {
     position: absolute;
-width: 113px;
-height: 19px;
-left: 30px;
-top: 44px;
+    width: 113px;
+    height: 19px;
+    left: 30px;
+    top: 44px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 
-color: #000000;
+    color: #000000;
 }
 
 .temp {
     position: absolute;
-width: 141px;
-height: 19px;
-left: 30px;
-top: 68px;
+    width: 141px;
+    height: 19px;
+    left: 30px;
+    top: 68px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 
-color: #000000;
+    color: #000000;
 }
 
 #box-2 {
     position: absolute;
-width: 540px;
-height: 108px;
-left: 126px;
-top: 304px;
+    width: 540px;
+    height: 108px;
+    left: 126px;
+    top: 304px;
 
-background: linear-gradient(90deg, rgba(166, 83, 105, 0.3) -1.3%, rgba(247, 237, 235, 0) 99.17%);
+    background: linear-gradient(90deg, rgba(166, 83, 105, 0.3) -1.3%, rgba(247, 237, 235, 0) 99.17%);
 }
 
 #box-3 {
     position: absolute;
-width: 540px;
-height: 108px;
-left: 126px;
-top: 417px;
+    width: 540px;
+    height: 108px;
+    left: 126px;
+    top: 417px;
 
-background: linear-gradient(90deg, rgba(166, 83, 105, 0.3) -1.3%, rgba(247, 237, 235, 0) 99.17%);
+    background: linear-gradient(90deg, rgba(166, 83, 105, 0.3) -1.3%, rgba(247, 237, 235, 0) 99.17%);
 }
 
 #box-4 {
     position: absolute;
-width: 540px;
-height: 108px;
-left: 126px;
-top: 530px;
+    width: 540px;
+    height: 108px;
+    left: 126px;
+    top: 530px;
 
-background: linear-gradient(90deg, rgba(166, 83, 105, 0.3) -1.3%, rgba(247, 237, 235, 0) 99.17%);
+    background: linear-gradient(90deg, rgba(166, 83, 105, 0.3) -1.3%, rgba(247, 237, 235, 0) 99.17%);
 }
 
 #box-5 {
     position: absolute;
-width: 540px;
-height: 447px;
-left: 698px;
-top: 191px;
+    width: 540px;
+    height: 447px;
+    left: 698px;
+    top: 191px;
 
-background: linear-gradient(270deg, rgba(166, 83, 105, 0.3) -1.94%, rgba(247, 237, 235, 0) 100%);
+    background: linear-gradient(270deg, rgba(166, 83, 105, 0.3) -1.94%, rgba(247, 237, 235, 0) 100%);
 }
