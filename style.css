@@ -18,6 +18,14 @@ body {
     font-family: var(--montserrat);
 }
 
+#posicao-servicos {
+    position: absolute;
+    width: 1366px;
+    height: 678px;
+    left: 0px;
+    top: 764px;
+}
+
 .titulo-servicos {
     display: flex;
     justify-content: start;
