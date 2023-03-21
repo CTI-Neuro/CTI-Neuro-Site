@@ -89,8 +89,8 @@ body {
     position: absolute;
     width: 1366px;
     height: 678px;
-    left: 0px;
-    top: 2150px;
+    left: calc(50% - 1366px/2);
+    top: calc(50% - 678px/2 + 388px);
 
     background: #F7EDEB;
 }
