@@ -87,19 +87,17 @@ body {
 /*Nossa Equipe (Daniela)*/
 #position {
     position: absolute;
-    width: 1366px;
+    width: 100%;
     height: 678px;
-    left: calc(50% - 1366px/2);
-    top: calc(50% - 678px/2 + 388px);
-
-    background: #F7EDEB;
+    left: 0px;
+    top: 2184px;
 }
 
 #box-equipe {
     position: absolute;
     width: 1170px;
     height: 91px;
-    left: 98px;
+    left: calc(50% - 1170px/2);
     top: 70px;
 
     background: linear-gradient(180deg, rgba(166, 83, 105, 0.3) 0%, rgba(247, 237, 235, 0) 100%);
