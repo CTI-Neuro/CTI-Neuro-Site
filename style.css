@@ -16,8 +16,7 @@ body {
     position: absolute;
     width: 1366px;
     height: 678px;
-    left: calc(50% - 1366px/2);
-    top: calc(50% - 678px/2 - 998px);
+    top: 750px;
 }
 .titulo-servicos {
     display: flex;
