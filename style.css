@@ -22,8 +22,8 @@ body {
     position: absolute;
     width: 1366px;
     height: 678px;
-    left: 0px;
-    top: 798px;
+    left: calc(50% - 1366px/2);
+    top: calc(50% - 678px/2 - 998px);
 }
 
 .titulo-servicos {
@@ -233,6 +233,6 @@ body {
     left: 698px;
     top: 191px;
 
-background: linear-gradient(270deg, rgba(166, 83, 105, 0.3) -1.94%, rgba(247, 237, 235, 0) 100%);
+    background: linear-gradient(270deg, rgba(166, 83, 105, 0.3) -1.94%, rgba(247, 237, 235, 0) 100%);
 
 }
